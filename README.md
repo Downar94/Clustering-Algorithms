@@ -9,3 +9,6 @@ The set of algorithms for Cluster Analysis (Clustering). Clustering is the techn
 - DBSCAN
 
 - Agglomerative Hierarchical
+
+## Agglomerative Hierarchical Clustering
+### Sample result:
