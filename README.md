@@ -12,6 +12,7 @@ The set of algorithms for Cluster Analysis (Clustering). Clustering is the techn
 
 ## K-Means
 ### Sample result:
+![result](https://user-images.githubusercontent.com/44844566/194782946-6e3752e3-0f7a-487b-ac9f-1a94f2b6907c.gif)
 
 ## Agglomerative Hierarchical Clustering
 ### Sample result:
