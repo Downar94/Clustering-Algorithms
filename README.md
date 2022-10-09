@@ -12,3 +12,4 @@ The set of algorithms for Cluster Analysis (Clustering). Clustering is the techn
 
 ## Agglomerative Hierarchical Clustering
 ### Sample result:
+![result](https://user-images.githubusercontent.com/44844566/194780248-618eb6ce-d06c-4d50-9cbc-66e3778f630b.gif)
