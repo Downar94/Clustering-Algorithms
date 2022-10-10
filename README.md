@@ -16,6 +16,7 @@ The set of algorithms for Cluster Analysis (Clustering). Clustering is the techn
 
 ## Mean-Shift
 ### Sample result:
+![result](https://user-images.githubusercontent.com/44844566/194863746-84952ec3-5522-4711-b199-68106a99ef8f.gif)
 
 ## K-Means
 ### Sample result:
