@@ -20,5 +20,5 @@ The set of algorithms for Cluster Analysis (Clustering). Clustering is the techn
 
 ## K-Means
 ### Sample result:
-![result](https://user-images.githubusercontent.com/44844566/194782946-6e3752e3-0f7a-487b-ac9f-1a94f2b6907c.gif)
+![result](https://user-images.githubusercontent.com/44844566/194873362-cb474495-9a8f-4c88-9394-56141a6ebf01.gif)
 
