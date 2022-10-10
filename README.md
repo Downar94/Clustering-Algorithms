@@ -24,3 +24,4 @@ The set of algorithms for Cluster Analysis (Clustering). Clustering is the techn
 
 ## DBSCAN
 ### Sample result:
+![result](https://user-images.githubusercontent.com/44844566/194877123-ab3d2d03-de06-4492-9cbc-c005a5e34a01.gif)
