@@ -11,6 +11,10 @@ The set of self-made algorithms for Cluster Analysis (Clustering). Clustering is
 - [DBSCAN](#dbsc)
 <a name="agg"></a>
 ## Agglomerative Hierarchical Clustering
+1. Set each data point as a separate cluster. This means, that the number of clusters and their coordinates at the beginning are the same as the number of data points and their coordinates.
+2. Set distance metric between two clusters, usually average linkage. It means that the distance between the two clusters is the average distance between data points in one cluster and data points in the other cluster.
+3. In each iteration we are combining two clusters with the shortage average linkage - smallest distance between data points.
+4. Repeat step 3 until you have only one cluster containing all data points. Now you can choose the optimal number of clusters at the end.
 ### Sample result:
 ![result](https://user-images.githubusercontent.com/44844566/194873845-e181ffeb-44a5-4344-8b00-56cfd6087672.gif)
 <a name="mean-s"></a>
