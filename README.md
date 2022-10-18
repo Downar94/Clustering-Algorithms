@@ -37,6 +37,7 @@ The set of self-made algorithms for Cluster Analysis (Clustering). Clustering is
 ## DBSCAN
 1. Set the epsilon distance and the minPoints measures. 
 2. Visit each unvisited data points, if the number of neighbors data points within epsilon distance is more or equal minPoints number, then this point is treated as a initial point of the new cluster and all the neighbors points belong to this cluster. Oterwise the point is treated as a 'noise'. The point is marked as 'visited'.
-3. 
+3. Repeat the process of assigning all points within the epsilon distance to the cluster for all neighbours.
+4. Repeat step 2 and 3 until all points are marked as 'visited'.
 ### Sample result:
 ![result](https://user-images.githubusercontent.com/44844566/194877560-e2a9f245-69fc-45b7-8f74-8c7667d001d0.gif)
