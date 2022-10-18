@@ -27,6 +27,10 @@ The set of self-made algorithms for Cluster Analysis (Clustering). Clustering is
 ![result](https://user-images.githubusercontent.com/44844566/194872357-62ad9c9a-4cae-45f1-9aba-1e0d8cad2654.gif)
 <a name="kmean"></a>
 ## K-Means
+1. Set the number of clusters(k) intuitively by looking at the dataset. In our case k = 3. The cluster center is randomly set.
+2. Compute the distance between each data point and the cluster center. Each data point is assigned to the cluster, according to the shortest distance.
+3. Calculate the new cluster center according to the mean of the data points belonging to this cluster.
+4. Repeat steps 2-3 until the cluster centers don't change.
 ### Sample result:
 ![result](https://user-images.githubusercontent.com/44844566/194873362-cb474495-9a8f-4c88-9394-56141a6ebf01.gif)
 <a name="dbsc"></a>
