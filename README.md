@@ -19,6 +19,9 @@ The set of self-made algorithms for Cluster Analysis (Clustering). Clustering is
 ![result](https://user-images.githubusercontent.com/44844566/194873845-e181ffeb-44a5-4344-8b00-56cfd6087672.gif)
 <a name="mean-s"></a>
 ## Mean-Shift
+1. Create sliding windows with the randomly selected coordinates and set it radius - R.
+2. Move sliding windows into the areas with higher density. Density is proportional to the number of data points, the new slinding window center is the mean of the data points inside.
+3. Repeat step 2 until the moment, that sliding window can't detect higher density areas.
 ### Sample result:
 ![result](https://user-images.githubusercontent.com/44844566/194872357-62ad9c9a-4cae-45f1-9aba-1e0d8cad2654.gif)
 <a name="kmean"></a>
